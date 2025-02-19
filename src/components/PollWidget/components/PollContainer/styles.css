@@ -1,0 +1,7 @@
+.poll-wrapper {
+    padding: 4px;
+    border: 1px solid red;
+    margin: 0px auto;
+    max-width: 100%;
+    border-radius: 10px;
+}

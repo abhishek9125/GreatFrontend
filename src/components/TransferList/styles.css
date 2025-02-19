@@ -1,0 +1,33 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    border: 1px solid lightgrey;
+    padding: 20px 40px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+.transfer-list-wrapper {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.action-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 20px;
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+}
+
+.action-buttons button {
+    cursor: pointer;
+    background-color: lightcoral;
+    border: 2px solid lightcoral;
+}
