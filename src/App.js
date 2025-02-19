@@ -7,6 +7,7 @@ import MemoryGame from './components/Memory Game';
 import ProgressBar from './components/ProgressBar';
 import PreviousCounter from './components/PreviousCounter';
 import PollWidget from './components/PollWidget';
+import OverlappingCircles from './components/OverlappingCircles';
 
 function App() {
 	return (
@@ -20,6 +21,7 @@ function App() {
 					<Route path="/progress-bar" element={<ProgressBar />} />
 					<Route path="/use-previous" element={<PreviousCounter />} />
 					<Route path="/poll-widget" element={<PollWidget />} />
+					<Route path="/overlapping-circles" element={<OverlappingCircles />} />
 				</Routes>
 			</div>
 		</BrowserRouter>
