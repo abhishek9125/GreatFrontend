@@ -9,6 +9,7 @@ import PreviousCounter from './components/PreviousCounter';
 import PollWidget from './components/PollWidget';
 import OverlappingCircles from './components/OverlappingCircles';
 import FileExplorer from './components/FileExplorer';
+import LRUCache from './components/LRUCache';
 
 function App() {
 	return (
@@ -24,6 +25,7 @@ function App() {
 					<Route path="/poll-widget" element={<PollWidget />} />
 					<Route path="/overlapping-circles" element={<OverlappingCircles />} />
 					<Route path="/file-explorer" element={<FileExplorer />} />
+					<Route path="/lru-cache" element={<LRUCache />} />
 				</Routes>
 			</div>
 		</BrowserRouter>
