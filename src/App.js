@@ -8,6 +8,7 @@ import ProgressBar from './components/ProgressBar';
 import PreviousCounter from './components/PreviousCounter';
 import PollWidget from './components/PollWidget';
 import OverlappingCircles from './components/OverlappingCircles';
+import FileExplorer from './components/FileExplorer';
 
 function App() {
 	return (
@@ -22,6 +23,7 @@ function App() {
 					<Route path="/use-previous" element={<PreviousCounter />} />
 					<Route path="/poll-widget" element={<PollWidget />} />
 					<Route path="/overlapping-circles" element={<OverlappingCircles />} />
+					<Route path="/file-explorer" element={<FileExplorer />} />
 				</Routes>
 			</div>
 		</BrowserRouter>
