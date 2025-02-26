@@ -10,6 +10,7 @@ import PollWidget from './components/PollWidget';
 import OverlappingCircles from './components/OverlappingCircles';
 import FileExplorer from './components/FileExplorer';
 import LRUCache from './components/LRUCache';
+import TicTacToe from './components/TicTacToe';
 
 function App() {
 	return (
@@ -26,6 +27,7 @@ function App() {
 					<Route path="/overlapping-circles" element={<OverlappingCircles />} />
 					<Route path="/file-explorer" element={<FileExplorer />} />
 					<Route path="/lru-cache" element={<LRUCache />} />
+					<Route path="/tic-tac-toe" element={<TicTacToe />} />
 				</Routes>
 			</div>
 		</BrowserRouter>
