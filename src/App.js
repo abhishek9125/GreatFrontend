@@ -11,6 +11,10 @@ import OverlappingCircles from './components/OverlappingCircles';
 import FileExplorer from './components/FileExplorer';
 import LRUCache from './components/LRUCache';
 import TicTacToe from './components/TicTacToe';
+import GridLights from './components/GridLights';
+import MultiStepForm from './components/MultiStepForm';
+import InfiniteScroll from './components/InfiniteScroll';
+import GoogleCalendar from './components/GoogleCalendar';
 
 function App() {
 	return (
@@ -28,6 +32,10 @@ function App() {
 					<Route path="/file-explorer" element={<FileExplorer />} />
 					<Route path="/lru-cache" element={<LRUCache />} />
 					<Route path="/tic-tac-toe" element={<TicTacToe />} />
+					<Route path="/grid-lights" element={<GridLights />} />
+					<Route path="/multi-step-form" element={<MultiStepForm />} />
+					<Route path="/infinite-scroll" element={<InfiniteScroll />} />
+					<Route path="/google-calendar" element={<GoogleCalendar />} />
 				</Routes>
 			</div>
 		</BrowserRouter>

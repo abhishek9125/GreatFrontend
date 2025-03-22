@@ -1,0 +1,28 @@
+
+.wrapper {
+    width: max-content;
+    margin: auto;
+    margin-top: 200px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 20px;
+    row-gap: 20px;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+.grid-cell {
+    border: 1px solid black;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
+}
+
+.cell-activated {
+    background-color: lightcoral;
+}

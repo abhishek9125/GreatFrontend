@@ -1,0 +1,104 @@
+.form-container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.form-field {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.form-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.btn-prev {
+    background-color: #f1f1f1;
+    color: #333;
+}
+
+.btn-next, .btn-submit {
+    background-color: #4285f4;
+    color: white;
+}
+
+.progress-bars {
+    display: flex;
+    margin-bottom: 30px;
+    align-items: center;
+}
+
+.step-indicator {
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+
+.step-bullet {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.step-bullet.active {
+    background-color: #4285f4;
+    color: white;
+}
+  
+.step-bullet.completed {
+    background-color: #34a853;
+    color: white;
+}
+
+.step-line {
+    flex-grow: 1;
+    height: 2px;
+    background-color: #ddd;
+    margin: 0 5px;
+    transition: background-color 0.3s ease;
+}
+
+.step-line.completed {
+    background-color: #34a853;
+}
+
+.last-indicator {
+    flex: 0;
+}
