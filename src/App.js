@@ -15,6 +15,7 @@ import GridLights from './components/GridLights';
 import MultiStepForm from './components/MultiStepForm';
 import InfiniteScroll from './components/InfiniteScroll';
 import GoogleCalendar from './components/GoogleCalendar';
+import AnagramSlider from './components/AnagramSlider';
 
 function App() {
 	return (
@@ -36,6 +37,7 @@ function App() {
 					<Route path="/multi-step-form" element={<MultiStepForm />} />
 					<Route path="/infinite-scroll" element={<InfiniteScroll />} />
 					<Route path="/google-calendar" element={<GoogleCalendar />} />
+					<Route path="/anagram-slider" element={<AnagramSlider />} />
 				</Routes>
 			</div>
 		</BrowserRouter>
